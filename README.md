@@ -1,6 +1,6 @@
 # SMARD Germany — Day-Ahead Electricity Price Forecasting
 
- [[View notebook on nbviewer](https://nbviewer.org/github/EBP20/smard-electricity-forecasting/blob/main/power_trading.ipynb)](https://colab.research.google.com/github/EBP20/smard-electricity-forecasting/blob/main/power_trading.ipynb)
+[Open in Colab](https://colab.research.google.com/github/EBP20/smard-electricity-forecasting/blob/main/power_trading.ipynb)
 
 Predicts all 24 hourly Day-Ahead prices for the German market (EPEX Spot DE/LU) using XGBoost. Run it before the 12:00 CET auction — by then you have real generation data up to ~hour 10–11 plus TSO forecasts for tomorrow, which together give a much richer signal than forecasts alone.
 
